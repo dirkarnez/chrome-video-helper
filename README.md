@@ -1,6 +1,9 @@
 chrome-video-helper
 ===================
 - [ ] skip to specified time
+  ```js
+  document.getElementsByTagName("video" /*"audio"*/)[0].currentTime = 1;
+  ```
 - [ ] ArrowUp / ArrowDown volume control
 - [ ] Loop
   ```js
