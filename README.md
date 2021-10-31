@@ -4,7 +4,7 @@ chrome-video-helper
   ```js
   document.getElementsByTagName("video" /*"audio"*/)[0].currentTime = 1;
   ```
-- [ ] ArrowUp / ArrowDown volume control
+- [ ] `ArrowUp` / `ArrowDown` volume control
 - [ ] Loop
   ```js
   document.getElementsByTagName("video" /*"audio"*/)[0].loop = true;
