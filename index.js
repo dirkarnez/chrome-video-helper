@@ -13,12 +13,11 @@ document.addEventListener('keydown', function (e) {
 		video.currentTime -= 5;
 	} else if (keyCode == "ArrowRight") {
 		video.currentTime += 5;
-	} else if (keyCode == "s" || keyCode == "S") {
+	} else if (keyCode == "ArrowDown") {
 		const currentTime = document.getElementsByTagName("video")[0].currentTime;
 		const event = new Date(2000, 1, 1, 0);
 		event.setSeconds(~~currentTime);
-		event.setMilliseconds((~~(currentTime - (~~currentTime)) * 1000)); // 3 digits
+		event.setMilliseconds(~~((currentTime - (~~currentTime)) * 1000)); // 3 digits
 		console.log(event.toTimeString().substring(0, 8) + "." + event.getMilliseconds());
 	}
 });
-
