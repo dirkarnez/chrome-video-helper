@@ -5,6 +5,7 @@ chrome-video-helper
   document.getElementsByTagName("video" /*"audio"*/)[0].currentTime = 1;
   ```
 - [ ] `ArrowUp` / `ArrowDown` volume control
+- [x] Get current time as ffmpeg format
 - [ ] Loop
   ```js
   document.getElementsByTagName("video" /*"audio"*/)[0].loop = true;
